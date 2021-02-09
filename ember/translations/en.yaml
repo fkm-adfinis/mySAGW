@@ -7,6 +7,7 @@ nav:
   emeis: "Emeis"
   alexandria: "Alexandria"
   documents: "Documents"
+  interests: "Interests"
   home: "Home"
   support: "Support"
   form-builder: "Form Builder"
@@ -51,3 +52,9 @@ documents:
   subnav:
     overview: "Overview"
     document: "Document"
+
+page:
+  interests:
+    index:
+      title: "Interests"
+      add: "Add interest category"

@@ -36,4 +36,5 @@ Router.map(function () {
       this.route("new");
     });
   });
+  this.route("interests");
 });

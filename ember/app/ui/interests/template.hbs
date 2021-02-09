@@ -1,0 +1,22 @@
+<div
+  {{did-insert this.onUpdate}}
+  {{did-update this.onUpdate}}
+>
+  <h1>{{t "page.interests.index.title"}}</h1>
+
+  {{#if this.fetchInterests.isRunning}}
+    Loading...
+  {{else}}
+    <ul class="uk-list uk-list-divider">
+      {{#each this.categories as |category|}}
+      <li>
+        {{category.title}}
+      </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+
+  <p class="uk-text-right">
+    {{t "page.interests.index.add"}}
+  </p>
+</div>
